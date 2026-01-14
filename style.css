@@ -1,0 +1,26 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body
+{background-image: url(c0d80a5d314d69658afa0e82a0d9357b.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;}
+h1
+{color: red;}
+h2
+{color: blue;
+font-size: 40px;}
+@media screen and (max-width: 500px){
+    body {
+        background-image: url(images.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    h1 {color: green;}
+    h2 {display: none;}    
+    
+}
